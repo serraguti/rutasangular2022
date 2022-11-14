@@ -9,6 +9,7 @@ import { MusicaComponent } from './components/musica/musica.component';
 import { TelevisionComponent } from './components/television/television.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { Error404Component } from './components/error404/error404.component';
+import { NumerodobleComponent } from './components/numerodoble/numerodoble.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { Error404Component } from './components/error404/error404.component';
     MusicaComponent,
     TelevisionComponent,
     MenuComponent,
-    Error404Component
+    Error404Component,
+    NumerodobleComponent
   ],
   imports: [
     BrowserModule, routing

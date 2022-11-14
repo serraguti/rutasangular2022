@@ -1,0 +1,24 @@
+<div>
+    <h1>Parámetros Routing</h1>
+    <button (click)="redirect(66)">
+        Doble 66
+    </button>
+    <button (click)="redirect(55)">
+        Doble 55
+    </button>
+    <button (click)="redirect(199)">
+        Doble 199
+    </button>
+    <hr/>
+    <div *ngIf="numero">
+        <h1 style="color:blue">
+            El doble de {{ numero }} es 
+            <span style="color:red">{{doble}}</span>
+        </h1>
+    </div>
+    <div *ngIf="!numero">
+        <h1 style="color:red">
+            No tenemos parámetros número
+        </h1>
+    </div>
+</div>
